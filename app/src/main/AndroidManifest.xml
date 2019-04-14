@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.motherandbabycare">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_image"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ambulance_Service"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".Baby_Care"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Doctor_Care"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Pregnancy_Exercise"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Extra_Care"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Mother_Care"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Music_Lullaby"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Nearby_Hospital"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Set_Reminder"
+            android:parentActivityName=".Extra_Care" />
+        <activity android:name=".Baby_Appearance"
+            android:parentActivityName=".Mother_Care"/>
+        <activity android:name=".Food_Habits"
+            android:parentActivityName=".Mother_Care"/>
+        <activity android:name=".Healthy_Pregnancy"
+            android:parentActivityName=".Mother_Care"/>
+        <activity android:name=".Pregnancy_Pains"
+            android:parentActivityName=".Mother_Care"/>
+        <activity android:name=".Vaccinations"
+            android:parentActivityName=".Mother_Care"/>
+        <activity android:name=".Baby_Ailments"
+            android:parentActivityName=".Baby_Care"/>
+        <activity android:name=".Eating_Habits"
+            android:parentActivityName=".Baby_Care"/>
+        <activity android:name=".Common_Problems"
+            android:parentActivityName=".Baby_Care"/>
+        <activity android:name=".Tips_Weather"
+            android:parentActivityName=".Baby_Care"/>
+        <activity android:name=".Baby_Vaccinations"
+            android:parentActivityName=".Baby_Care"/>
+        <activity android:name=".Common_Fever"
+            android:parentActivityName=".Baby_Ailments"/>
+        <activity android:name=".Common_Cold"
+            android:parentActivityName=".Baby_Ailments"/>
+        <activity android:name=".Constipation"
+            android:parentActivityName=".Baby_Ailments"/>
+        <activity android:name=".Diarrhoea"
+            android:parentActivityName=".Baby_Ailments"/>
+        <activity android:name=".Eczema"
+            android:parentActivityName=".Baby_Ailments"/>
+        <activity android:name=".Gas"
+            android:parentActivityName=".Baby_Ailments"/>
+        <activity android:name=".Sore_Throat"
+            android:parentActivityName=".Baby_Ailments"/>
+        <activity android:name=".Music_One"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Music_Two"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Music_Three"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Music_Four"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Music_Five"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Lullaby_One"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Lullaby_Two"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Lullaby_Three"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Lullaby_Four"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Lullaby_Five"
+            android:parentActivityName=".Music_Lullaby"/>
+        <activity android:name=".Appearance_Listdata" />
+        <activity android:name=".Todo_List"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Exercise_One"
+            android:parentActivityName=".Pregnancy_Exercise"/>
+        <activity android:name=".Exercise_Two"
+            android:parentActivityName=".Pregnancy_Exercise"/>
+        <activity android:name=".Exercise_Three"
+            android:parentActivityName=".Pregnancy_Exercise"/>
+        <activity android:name=".Exercise_Four"
+            android:parentActivityName=".Pregnancy_Exercise"/>
+        <activity android:name=".Exercise_Five"
+            android:parentActivityName=".Pregnancy_Exercise"/>
+        <activity android:name=".Exercise_Six"
+            android:parentActivityName=".Pregnancy_Exercise"/>
+        <activity android:name=".Age_Calculator"
+            android:parentActivityName=".Extra_Care"/>
+        <activity android:name=".BMI_Calculator"
+            android:parentActivityName=".Extra_Care"/>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Maps_Activity"
+            android:label="@string/title_activity_maps"></activity>
+
+        <receiver android:name=".AlarmReceiver"/>
+    </application>
+
+</manifest>

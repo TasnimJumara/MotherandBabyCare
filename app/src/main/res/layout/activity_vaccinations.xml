@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_two"
+    tools:context=".Vaccinations">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/color_vaccination_background">
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vaccine"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Requirement"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dose Schedule"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Influenza"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fall Season"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tdap,Td"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Each time"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HPV"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MMR"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis A"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Dose"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hepatitis B"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Dose"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hib"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MenACWY"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vericella"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Men B"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PPSV"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PCV"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginHorizontal="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="----"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="16sp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@color/color_vaccination_row"/>
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>

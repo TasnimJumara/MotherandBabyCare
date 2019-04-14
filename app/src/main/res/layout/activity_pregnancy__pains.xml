@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_one"
+    android:padding="30dp"
+    tools:context=".Pregnancy_Pains">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/abdominal_back_pain_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Abdominal and Back Pain" />
+
+        <Button
+            android:id="@+id/bleeding_white_discharge_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Bleeding and White Discharge" />
+
+        <Button
+            android:id="@+id/breathing_diffficulty_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Breathing Difficulty" />
+
+        <Button
+            android:id="@+id/chest_pain_headache_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Chest Pain and Headache" />
+
+        <Button
+            android:id="@+id/constipation_frequent_urine_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Constipation and Frequent Urine" />
+
+        <Button
+            android:id="@+id/gaining_weight_heartburn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Gaining Weight and Heartburn" />
+
+        <Button
+            android:id="@+id/leg_swelling_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Leg Swelling" />
+
+        <Button
+            android:id="@+id/morning_sickness_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Morning Sickness" />
+
+        <Button
+            android:id="@+id/vomiting_sense_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="Vomiting Sense" />
+
+    </LinearLayout>
+
+</ScrollView>

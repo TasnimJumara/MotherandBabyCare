@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Mother and Baby Care</string>
+    <string name="ambulance_service">Ambulance Service</string>
+    <string name="baby_care">Baby Care</string>
+    <string name="doctor_care">Doctor Care</string>
+    <string name="pregnancy_exercise">Pregnancy Exercise</string>
+    <string name="extra_care">Extra Care</string>
+    <string name="mother_care">Mother Care</string>
+    <string name="music_and_lullaby">Music and Lullaby</string>
+    <string name="nearby_hospital">Nearby Hospital</string>
+    <string name="set_reminder">Set Reminder</string>
+
+    <string-array name="appearance_week">
+        <item>First Trimester</item>
+        <item>Second Trimester</item>
+        <item>Third Trimester</item>
+        <item>Eighth Week</item>
+        <item>Twelfth Week</item>
+        <item>Sixteenth Week</item>
+        <item>Twentieth Week</item>
+        <item>Twenty Fourth Week</item>
+        <item>Twenty Eighth Week</item>
+        <item>Thirty Second Week</item>
+        <item>Thirty Sixth Week</item>
+        <item>Fortieth Week</item>
+    </string-array>
+    <string name="common_cold_symptomes">Common cold is expected if the child has
+        runny or stuffy nose also if the child is sneezing or complaining of sore
+        throat that he might have caught common cold.</string>
+    <string name="common_cold_treatment">Take 4 teaspoons of mustrad oil .
+        Take 4-5 garlic pieces and chop it.
+        Put the chopped garlic into the mustard oil .
+        Warm the oil till the garlic turns black.
+        Let he oil cool completely.
+        Take little oil on finger and apply on the nose, chest and back of the child.
+        Cover the kind and let him sleep .This will provide relief.</string>
+    <string name="common_cold_tips">Mustard oil is also called Sarso oil. Apply the oil before the sleeping time of the baby.Baby will wakeup feeling refreshed and relieved.</string>
+    <string name="title_activity_maps_">Map</string>
+    <string name="title_activity_maps">title_maps_activity</string>
+    <string name="birth_date_textview">Enter Birth Date</string>
+    <string name="end_date_textview">End Date</string>
+    <string name="start_date_textview">Start Date</string>
+    <string name="enter_end_date_textview">Enter End Date</string>
+    <string name="calculate_age_textview">Calculate Age</string>
+    <string name="common_cold_textview">Common Cold</string>
+    <string name="common_fever_testview">Common Fever</string>
+    <string name="constipation_textview">Constipation</string>
+    <string name="diarrhoea_textview">Diarrhoea</string>
+    <string name="eczema_textview">Eczema</string>
+    <string name="gas_textview">Gas</string>
+    <string name="sore_throat_textview">Sore Throat</string>
+    <string name="baby_ailments_textview">Baby Ailments</string>
+    <string name="common_problems_textview">Common Problems</string>
+    <string name="eating_habits_textview">Eating Habits</string>
+    <string name="tips_and_weather_textview">Tips and Weather</string>
+    <string name="vaccinations_textview">Vaccinations</string>
+    <string name="vaccine1_textview">Vaccine</string>
+    <string name="age_textview">Age</string>
+    <string name="dose_number_textview">Dose Number</string>
+    <string name="common_fever_symptomes">If the baby is having increased body temperature ,then he might be suffering from fever.
+        Fever may be ossur if the body is fighting any type of infection .Common cough and cold can be also cause fever.</string>
+    <string name="common_fever_treatment">Grate 2 potatoes in a grinder to make a paste.
+        Put the potato paste in the sock of the baby. Let the baby wear the same socks for some time.
+        Soak a cotton cloth in cold water. Put the cloth on the forhead of the baby for few minutes and repeat the process. This will lower the increased body
+        temperature in few minutes.</string>
+    <string name="common_fever_tips">Give your body cold fuilds as this will help in keeping the fever down. Dress your child in loose flitting clothes as
+        they will not retain the body heat and will help in bringing the body temaperature down.</string>
+    <string name="diaper_rashes_textview">Diaper Rashes</string>
+    <string name="excess_body_hair_textview">Excess Body Hair</string>
+    <string name="loss_of_appetite_textview">Loss of Appetite</string>
+    <string name="teething_pain_textview">Teething Pain</string>
+    <string name="worm_infestation_textview">Worm Infestation</string>
+    <string name="constipation_symptomes">Constipation is expceted if there is prolonged absence of poop.
+        This can occur if the baby is not getting enough to eat. Look out fot hard dry poop.
+        If the baby is making uncomfortable faces when pooping then is could be the sign of constipation.</string>
+    <string name="constipation_treatment">Take half cup of water. Put pinch of carom seeds in it.
+        Boil the water till its colour changes. Let the water cool for some times.
+        Strain the water in a cup Give 1 teaspoon at a time to baby twice in a day for relief.</string>
+    <string name="constipation_tips">Carom seeds(Ajwain) can be easily purchased from any store</string>
+    <string name="diarrhoea_symptomes">If the poop of your baby is very loose and is coming frequently then the baby may be suffering from diarrehoea.
+        The causes of diarrhea are usually infection , bacteria etc.
+        Make sure that your child is given liquid in appropriate amount as they could become dehydrated quickly.</string>
+    <string name="diarrhoea_treatment">Take 1 tsp each of coriander seeds.
+        Take 1 tsp each of cumin seeds.
+        Soak both seeds in the water for an hour.
+        Crush the seeds in the water .
+        Strain the water in a cup.
+        Add little suger and give one teaspoon of mixture at regular interval for relief.</string>
+    <string name="diarrhoea_tips">Teething is the most common cause behind diaeehoea in babies. Give hime a clean teething toy anf massage the gums of the ebaby gently.This calm the baby and provide comfort.  If the baby is feeding on breast milk,the mother should continue giving it.This will keep the baby hydrated.</string>
+    <string name="about_baby_diet_textview">About Baby Diet</string>
+    <string name="_0_to_3_months_old_textview">0 to 3 Months Old</string>
+    <string name="_3_to_6_months_old_textview">3 to 6 Months Old</string>
+    <string name="_6_to_8_months_old_textview">6 to 8 Months Old</string>
+    <string name="_8_to_10_months_old_textview">8 to 10 Months Old</string>
+    <string name="eczema_symptomes">If there are patches of red or dry skin on body of the baby then it can be a sign of eczema. The patches are itchy, dry and rough.
+        It may appear just about anywhere on the body but it mostly occurs on a cheeks and at the joint of thie, arms and legs.</string>
+    <string name="eczema_treatment">Take some Margosa(Neem) leaves and crush them to make a pulp.
+        Take 1 tbsp of this pulp.
+        Take 1 tsp of turmeric powder(haldi).
+        Mix the pulp with turmeric powder thoroughly.
+        Apply this mixture on the affected areas for relief.</string>
+    <string name="eczema_tips">Appying aloevera gel on effected areas also soothes the skin.
+        Wash the clothes of your baby thoroughly to remove any remaining detergent.</string>
+    <string name="exercise_five_aim">To strengthen your thighs, hip flexors, hamstrings and gluteal muscles.</string>
+    <string name="exercise_five_technique">1.Start by standing with your feet about 6 inches apart with your toes pointed forward.
+        2.Step forward with one leg and lower your body to 90 degrees at both knees. Do not step out too far. Keep your weight on your heels and do not allow your knees to cross the plane of your toes.
+        3.Push up and back to the starting position.
+        4.Repeat this action for 10-15 repetitions on one leg,
+        then repeat with the other leg forward.</string>
+    <string name="exercise_five_keypoints">1.Inhale as you step forward, exhale as you push back up.
+        2.Body weight should be placed on front leg.
+        3.Keep your back upright and abdominals pulled in.</string>
+    <string name="exercise_five_alternative">1.You may wish to hold on to a chair or wall for balance.
+        2.The further you step, the more you work the glutes(buttocks) and hamstrings. The closer you step, the more you work the quadriceps muscles.
+        3.You can hold a dumbbell in your hands to increase the intensity</string>
+    <string name="sore_throat_symptomes">If the baby is having trouble swallowing food the he may have caught a throat infection,
+        he may not eat or drink because of pain and inflammation in throat. It can occur if baby eats unhygienic food(like food pieces from floor). It might also occur if baby is
+        given chilled food or water.</string>
+    <string name="sore_throat_treatment">Take 2 little ginger pieces .  Grate the ginger to make a paste.  Take 2 teaspoon of honey.  Add honey in the paste and mix thoroughly. Let the baby suck the misture for some time.
+        Ginger has anti-inflammatory properties which soothes the throat and helps fight infection.</string>
+    <string name="sore_throat_tips">Give warm water to babies and avoid very cold water. Massaging the throat of the baby with warm mustard oil also helps in treating sore throat infection.</string>
+    <string name="exercise_two_technique">1.Stand with your feet about two feet apart and toes turned comfortably out.  2.Slowly bend your knees, keeping your back flat.  3.Keep your knees over your toes - don\'t let them roll in.  4.Rise slowly, concentrating on the leg muscles as you push-upward.  5.Start with five repetitions, and increase to 20 as you get fitter. To further advance this exercise, stay down for 15 to 30 seconds, then rise up slowly.</string>
+    <string name="exercise_three_technique">1.Start by standing with your feet a little less than shoulder-width apart, about a foot in front of a
+        step which is approximately 12-18 inches high. Allow your arms to hang comfortably down by your sides.
+        2.Keep your back straight and step up with your left leg.
+        3.With a steady and controlled motion slowly pull yourself up onto the bench using only your left leg.
+        4.Step down off the step with your right foot first and then the left foot and return to the starting position.
+        5.Repeat this action, alternating the leading leg each time.
+        6.Do approximately 20 to 30 total repetitions.</string>
+    <string name="exercise_three_alternative">1.If you find this exercise too easy, or the step height is low, you may use hand weights to increase the intensity.
+        2.You can also modify the intensity by increasing your pace and changing the step height.</string>
+    <string name="exercise_six_aim">To strengthen your back, gluteals and hamstring muscles.</string>
+    <string name="exercise_six_equipment">A firm but not hard surface such as an exercise mat.</string>
+    <string name="exercise_six_technique">1.Start by resting on your hands and knees, with your back flat and abdominal muscles squeezed in tightly.  2.With your foot flexed, extend your leg straight behind you.  3.Keeping your back flat, lift your left leg up until it is level with your back, and hold for several seconds.  4.Lower your leg.  5.Repeat this action several times on the one side.  6.Change legs and repeat.  7.Start with five repetitions each side, and increase to 20 as you get fitter.</string>
+    <string name="exercise_one_technique">1.Start by standing with your feet approximately shoulder width apart.
+        2.Squat down as low as you can, keeping your feet flat on the ground if possible.
+        3.Press your knees apart with your elbows.
+        4.Hold for a few minutes or even longer if you are comfortable in that position.</string>
+    <string name="exercise_one_alternative">If you are finding it hard to keep your balance, squat near a wall or chair that you can hold on to for support.
+        Putting a rolled up towel under your heels may also help you keep your balance</string>
+    <string name="exercise_four_technique">1.Start by standing with your feet comfortably apart with your toes pointed forward.
+        2.Step to the side with one leg and lower your body slightly at both knees. Do not step out too far. Keep your weight evenly between your heels and toes.
+        3.Push up and back to the starting position.
+        4.Repeat this action for 10-15 repetitions to one side, then repeat the action to the other side.</string>
+    <string name="exercise_four_keypoint">1.Inhale as you step to the side, exhale as you push back up.
+        2.Keep your back upright and abdominals pulled in.</string>
+    <string name="gas_symptomes">Babies can be pretty gassy. It is common for them to pass gas 13-21 times each day. Infants have plenty of chances to swallow air, like when they: eat whether food comes from a breast or bottle, suck a pacifier, cry. When air gets trapped in your belly of your baby, you may notice that she: burps gets fussy, is bloated, cries, farts, has a hard tummy.</string>
+    <string name="gas_teatment">Take a pinch of heeng. Take 1 cup of lukewarm wate. Mix it in the water properly till it dilutes. Take a piece of cotton and dip it in the mixture. Apply the moist cotton mixture on the navel of the baby in circular motion for relief.</string>
+    <string name="gas_tips">Oil can be also used in place of water. Make sure the water or oil is not too got.Diet of a mother also effect the baby if they are breastfed.</string>
+
+</resources>

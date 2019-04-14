@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@drawable/homepage_image"
+                android:textAlignment="center"
+                android:text="Spondon"
+                android:textSize="25sp"
+                android:gravity="bottom"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/ambulance_service"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorGrapeFruit"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ambulance_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorGrapeFruitDark"
+                        android:text="@string/ambulance_service"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <!--For second image-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/baby_care"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorFlower"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/baby_care_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorFlowerDark"
+                        android:text="@string/baby_care"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <!--For 3rd image-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/doctor_care"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorBitterSweet"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/doctor_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorBitterSweetDark"
+                        android:text="@string/doctor_care"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--For 4th image-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/extra_care"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorBlueJeans"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/extra_care_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorBlueJeansDark"
+                        android:text="@string/extra_care"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <!--For 5th image-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/mother_care"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorGrass"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/mother_care_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorGrassDark"
+                        android:text="@string/mother_care"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <!--For 6th image-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/music_lullaby"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorLavander"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/music_lullaby_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorLavanderDark"
+                        android:text="Music and Lullaby"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--For 7th image-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/nearby_places"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorMint"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/nearby_place_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorMintDark"
+                        android:text="Nearby Places"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <!--for 8th image-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/pregnancy_exercise"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorPinkRose"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/pregnancy_exercise_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorPinkRoseDark"
+                        android:text="@string/pregnancy_exercise"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <!--For 9th image-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/todo_list"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_margin="2dp"
+                    android:background="@color/colorAqua"
+                    >
+
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/todo_list_image"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@color/colorAquaDark"
+                        android:text="To Do List"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

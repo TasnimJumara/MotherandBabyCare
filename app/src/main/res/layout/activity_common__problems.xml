@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background_one"
+    tools:context=".Common_Problems">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/diaper_rashes_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="@string/diaper_rashes_textview" />
+
+        <Button
+            android:id="@+id/excess_hair_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="@string/excess_body_hair_textview" />
+
+        <Button
+            android:id="@+id/loss_appetite_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="@string/loss_of_appetite_textview" />
+
+        <Button
+            android:id="@+id/teething_pain_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="@string/teething_pain_textview" />
+
+        <Button
+            android:id="@+id/worm_infestation_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:text="@string/worm_infestation_textview" />
+
+    </LinearLayout>
+
+</ScrollView>

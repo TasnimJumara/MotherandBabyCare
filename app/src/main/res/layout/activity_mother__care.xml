@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background_one"
+    tools:context=".Mother_Care">
+
+    <Button
+        android:id="@+id/baby_appearance_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Baby Appearance"
+        android:background="@drawable/round_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/food_habits_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Food Habits"
+        android:background="@drawable/round_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/healthy_pregnancy_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Healthy Pregnancy"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/pregnancy_pain_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Pregnancy Pains"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/pregnancy_vaccination_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Vaccinations"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+
+</LinearLayout>

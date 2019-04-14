@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_two"
+    tools:context=".Age_Calculator">
+
+    <Button
+        android:id="@+id/btnStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="26dp"
+        android:width="150dp"
+        android:text="@string/start_date_textview" />
+
+    <TextView
+        android:id="@+id/startDateDisplay"
+        android:layout_width="150dp"
+        android:layout_height="42dp"
+        android:layout_alignBaseline="@+id/btnStartDate"
+        android:layout_alignBottom="@+id/btnStartDate"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toEndOf="@+id/btnStartDate"
+        android:layout_toRightOf="@+id/btnStartDate"
+        android:background="@drawable/round_button"
+        android:text="@string/birth_date_textview" />
+
+    <Button
+        android:id="@+id/btnEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_below="@+id/btnStartDate"
+        android:layout_alignStart="@+id/btnStartDate"
+        android:layout_alignLeft="@+id/btnStartDate"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="23dp"
+        android:width="150dp"
+        android:text="@string/end_date_textview" />
+
+    <TextView
+        android:id="@+id/endDateDisplay"
+        android:layout_width="162dp"
+        android:layout_height="43dp"
+        android:background="@drawable/round_button"
+        android:layout_alignBaseline="@+id/btnEndDate"
+        android:layout_alignStart="@+id/startDateDisplay"
+        android:layout_alignLeft="@+id/startDateDisplay"
+        android:layout_alignBottom="@+id/btnEndDate"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="-3dp"
+        android:text="@string/enter_end_date_textview" />
+
+    <Button
+        android:id="@+id/btnCalculateAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_below="@+id/btnEndDate"
+        android:layout_alignStart="@+id/btnEndDate"
+        android:layout_alignLeft="@+id/btnEndDate"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="30dp"
+        android:width="150dp"
+        android:text="@string/calculate_age_textview" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/btnCalculateAge"
+        android:layout_alignStart="@+id/btnCalculateAge" />
+
+    <TextView
+        android:id="@+id/txtMonthDay"
+
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text=""
+        android:layout_below="@+id/txtResult"
+        android:layout_alignLeft="@+id/txtResult"
+        android:layout_alignStart="@+id/txtResult" />
+
+    <TextView
+        android:id="@+id/txtWeekDays"
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="26dp"
+        android:text=""
+        android:layout_below="@+id/txtMonthDay"
+        android:layout_alignLeft="@+id/txtMonthDay"
+        android:layout_alignStart="@+id/txtMonthDay" />
+
+    <TextView
+        android:id="@+id/txtTotalDays"
+
+        android:textColor="@color/colorBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text=""
+        android:layout_below="@+id/txtWeekDays"
+        android:layout_alignLeft="@+id/txtWeekDays"
+        android:layout_alignStart="@+id/txtWeekDays" />
+
+
+</RelativeLayout>

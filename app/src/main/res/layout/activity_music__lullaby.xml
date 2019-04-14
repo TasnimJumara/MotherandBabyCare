@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background_one"
+    tools:context=".Music_Lullaby">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/lullaby_one_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Goodnight Lullaby"
+        android:background="@drawable/round_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/lullaby_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Little Baby Lulllaby"
+        android:background="@drawable/round_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/lullaby_three_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Little Horse Lullaby"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/lullaby_four_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Little Star Lullaby"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/lullaby_five_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Rock Baby Lullaby"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/music_one_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Emotion Music"
+        android:background="@drawable/round_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/music_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Enchanted Piano Music"
+        android:background="@drawable/round_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/music_three_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Peaceful Mind Music"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/music_four_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Piano Sonata Music"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/music_five_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Soothing Music"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+</ScrollView>

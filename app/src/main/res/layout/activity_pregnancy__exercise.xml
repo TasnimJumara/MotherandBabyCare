@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_one"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Pregnancy_Exercise">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/exercise_one_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Exercise One"
+            android:background="@drawable/round_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/exercise_two_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Exercise Two"
+            android:background="@drawable/round_button"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/exercise_three_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Exercise Three"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_button"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/exercise_four_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Exercise Four"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_button"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/exercise_five_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Exercise Five"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_button"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+
+        <Button
+            android:id="@+id/exercise_six_button"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Exercise Six"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_button"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</ScrollView>
